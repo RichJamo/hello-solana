@@ -1,1 +1,46 @@
-/target
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs
+logs
+*.log
+npm-debug.log*
+
+# Ignore environment variables
+.env
+
+# Ignore build output for web projects
+dist/
+build/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Cargo artifacts
+target/
+**/target/
+
+# Ignore Cargo.lock (if you are building a library)
+# Cargo.lock
+
+# Ignore output binaries
+*.rs.bk
+*.rs.old
+
+# Ignore IDE-specific files (optional)
+.idea/
+.vscode/
+
+# Ignore other development artifacts
+*.toml.orig
+*.log
+*.tmp
+
+# Ignore specific Solana build artifacts
+*.so
+*.dSYM/
+
+# Ignore Cargo audit and clippy files
+.cargo-audit/
+.clippy.toml
